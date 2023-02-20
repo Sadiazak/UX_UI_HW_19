@@ -1,0 +1,111 @@
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    width: 95%;
+    height: 95%;
+    font-family: Verdana;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    float: right;
+    padding: 1%;
+    width: 25%;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+nav {
+    width: 65%;
+    padding: 1%;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    display: block;
+    overflow: hidden;
+}
+
+.inline-block .menu li {
+    padding: 10px;
+    float: left;
+}
+
+.heroImg {
+    width: 100%;
+    background-blend-mode: lighten;
+    float: left;
+    height: 400px;
+}
+
+.content-bg {
+    position: absolute;
+    width: 20%;
+    height: 250px;
+    background-color: #000000;
+    opacity: 0.3;
+    z-index: -100;
+}
+
+.content {
+    width: 20%;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    z-index: 100;
+    color: white;
+    text-shadow: none;
+}
+
+.content p {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    text-align: center;
+}
+
+.content div {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-size: 14px;
+    width: 100%;
+    padding: 20px;
+    float: left;
+}
+
+.footer-bg {
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div ul {
+    width: 25%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul li {
+    float: left;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
